@@ -1,0 +1,38 @@
+{
+  "config": {
+    "seed": 42,
+    "validation_size": 0.2,
+    "selection_size": 140000,
+    "cat_search_iterations": 160,
+    "cat_final_iterations": 600,
+    "lgb_iterations": 500,
+    "target_encoding_folds": 3,
+    "target_encoding_smoothing": 40.0,
+    "depth": 7,
+    "cat_learning_rate": 0.12,
+    "class_weight_exponent": 0.25,
+    "threads": 15,
+    "prefix_lengths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "selection": {
+    "ordinal_weight": 0.40000000000000013,
+    "log_bias": [
+      -0.144,
+      0.17600000000000002,
+      0.136,
+      0.055999999999999994,
+      -0.224
+    ],
+    "raw_macro_f1": 0.5478137036854097,
+    "calibrated_macro_f1": 0.5593041394432039
+  },
+  "training_rows": 533465,
+  "training_seconds": 2677.0137934
+}

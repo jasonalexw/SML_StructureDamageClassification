@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data kompetisi
+data/*.csv
+
+# File lokal
+.env
+.DS_Store
+Thumbs.db
