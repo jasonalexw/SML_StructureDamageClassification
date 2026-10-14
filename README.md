@@ -1,4 +1,4 @@
-# Structural damage classification
+# Structural Damage Classification
 
 Proyek ini memprediksi `damage_grade` bangunan setelah gempa. Target terdiri
 dari lima kelas, yaitu Grade 1 sampai Grade 5. Evaluasi menggunakan macro-F1,
